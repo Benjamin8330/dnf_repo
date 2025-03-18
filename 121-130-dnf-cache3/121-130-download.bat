@@ -1,0 +1,11 @@
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_aa
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_ab
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_ac
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_ad
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_ae
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_af
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_ag
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_ah
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_ai
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/tar/dep_part3_aj
+wget https://raw.githubusercontent.com/Benjamin8330/dnf_repo/refs/heads/main/121-130-dnf-cache3/reassembling.sh
