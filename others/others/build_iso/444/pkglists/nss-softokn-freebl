@@ -1,0 +1,13 @@
+/usr/lib/.build-id
+/usr/lib/.build-id/2d/c24503fc3d156068dca1f307fbdf03adcbab6b
+/usr/lib/.build-id/40
+/usr/lib/.build-id/40/89b8da98c26c8161cb84e5ae7eb04761e26824
+/usr/lib/dracut/dracut.conf.d/50-nss-softokn.conf
+/usr/lib/dracut/modules.d/05nss-softokn
+/usr/lib/dracut/modules.d/05nss-softokn/module-setup.sh
+/usr/lib64/libfreebl3.chk
+/usr/lib64/libfreebl3.so
+/usr/lib64/libfreeblpriv3.chk
+/usr/lib64/libfreeblpriv3.so
+/usr/share/licenses/nss-softokn-freebl
+/usr/share/licenses/nss-softokn-freebl/COPYING

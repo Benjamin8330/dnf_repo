@@ -1,0 +1,7 @@
+/boot/efi/EFI/almalinux/fonts
+/boot/efi/EFI/almalinux/grub.cfg
+/boot/efi/EFI/almalinux/grubaa64.efi
+/boot/efi/EFI/almalinux/grubenv
+/boot/grub2/grubenv
+/boot/loader/entries
+/etc/grub2-efi.cfg

@@ -1,0 +1,10 @@
+/usr/lib/firmware/regulatory.db
+/usr/lib/firmware/regulatory.db.p7s
+/usr/lib/udev/rules.d/85-regulatory.rules
+/usr/sbin/setregdomain
+/usr/share/doc/crda
+/usr/share/doc/crda/README
+/usr/share/licenses/crda
+/usr/share/licenses/crda/LICENSE
+/usr/share/man/man1/setregdomain.1.gz
+/usr/share/man/man5/regulatory.db.5.gz

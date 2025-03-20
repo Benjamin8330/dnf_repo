@@ -1,0 +1,13 @@
+/etc/debuginfod/elfutils.urls
+/etc/profile.d/debuginfod.csh
+/etc/profile.d/debuginfod.sh
+/usr/bin/debuginfod-find
+/usr/lib/.build-id
+/usr/lib/.build-id/10
+/usr/lib/.build-id/10/06f96eba04a3fb2c8b3641538934a3b08be6ee
+/usr/lib/.build-id/79
+/usr/lib/.build-id/79/909de2d194704ead00fb60440fec4702d54678
+/usr/lib64/libdebuginfod-0.190.so
+/usr/lib64/libdebuginfod.so.1
+/usr/share/man/man1/debuginfod-find.1.gz
+/usr/share/man/man7/debuginfod-client-config.7.gz

@@ -1,0 +1,974 @@
+    1  rpm -e pcsc-lite
+    2  rpm -e pcsc-lite opensc
+    3  rpm -e pcsc-lite opensc pcsc-lite-ccid
+    4  ./tail_messages.sh
+    5  ll
+    6  ps aux | grep "rpmbuild -ba"
+    7  top
+    8  ps aux | grep "rpmbuild -ba"
+    9  dnf --help
+   10  dnf --help | grep group
+   11  dnf --help | grep install
+   12  dnf group --help
+   13  ps aux | grep "rpmbuild -ba"
+   14  service mybuild restart
+   15  ps aux | grep "rpmbuild -ba"
+   16  ./build.sh
+   17  ./tail_messages.sh
+   18  wget https://vault.almalinux.org/8.10/BaseOS/Source/Packages/nfs-utils-2.3.3-59.el8.src.rpm https://vault.almalinux.org/8.10/PowerTools/Source/Packages/mingw-winpthreads-5.0.2-2.el8.src.rpm https://vault.almalinux.org/8.10/PowerTools/Source/Packages/mingw-gcc-7.2.0-2.el8.src.rpm https://vault.almalinux.org/8.10/PowerTools/Source/Packages/mingw-crt-5.0.2-2.el8.src.rpm https://vault.almalinux.org/8.10/AppStream/Source/Packages/libxcam-1.2.0-1.el8.src.rpm http://ftp.iij.ad.jp/pub/linux/centos-vault/centos/8/AppStream/Source/SPackages/libformula-1.1.3-18.el8.src.rpm
+   19  wget https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/source/tree/Packages/s/SFML-2.5.1-15.fc39.src.rpm
+   20  wget https://openmamba.org/download.html?file=/pub/openmamba/base/SRPMS.base/libdaq-3.0.18-1mamba.src.rpm
+   21  mv download.html\?file=%2Fpub%2Fopenmamba%2Fbase%2FSRPMS.base%2Flibdaq-3.0.18-1mamba.src.rpm libdaq-3.0.18-1mamba.src.rpm
+   22  ./tail_messages.sh
+   23  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/centos/8/AppStream/Source/SPackages/libappindicator-12.10.0-19.el8.src.rpm http://ftp.iij.ad.jp/pub/linux/centos-vault/centos/8/AppStream/Source/SPackages/libabw-0.1.2-2.el8.src.rpm https://vault.almalinux.org/8.10/devel/Source/Packages/libabigail-1.4-2.el8.src.rpm
+   24  wget https://vault.almalinux.org/8.10/BaseOS/Source/Packages/kmod-kvdo-6.2.8.7-94.el8.src.rpm
+   25  wget https://vault.almalinux.org/8.10/AppStream/Source/Packages/libabw-0.1.2-2.el8.src.rpm
+   26  wget https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/source/tree/Packages/k/kdelibs-4.14.38-39.fc39.src.rpm
+   27  wget https://rpms.remirepo.net/SRPMS/ImageMagick-6.9.13.23-1.el8.remi.src.rpm
+   28  wget https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/source/tree/Packages/i/ibus-qt-1.3.4-8.fc39.src.rpm
+   29  wget https://rpms.remirepo.net/SRPMS/ImageMagick-6.9.13.23-1.el8.remi.src.rpm
+   30  wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/developer/x86_64/getPackageSource/gtk-vnc-0.9.0-2.el8.src.rpm
+   31  ./tail_messages.sh
+   32  wget https://mirror.5i.fi/fedora/epel/8/Everything/SRPMS/Packages/f/fuse-encfs-1.9.5-5.el8.src.rpm
+   33  wget https://download.opensuse.org/source/distribution/leap/15.5/repo/oss/src/double-conversion-3.1.5-3.2.1.src.rpm
+   34  wget http://vault.almalinux.org/8.10/BaseOS/Source/Packages/device-mapper-multipath-0.8.4-41.el8.src.rpm
+   35  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/centos/8/AppStream/Source/SPackages/criu-3.15-1.module_el8.5.0+736+58cc1a5a.src.rpm
+   36  wget https://vault.almalinux.org/8.10/PowerTools/Source/Packages/cppcheck-2.4-1.el8.src.rpm https://vault.almalinux.org/8.10/devel/Source/Packages/ceres-solver-1.13.0-2.el8.src.rpm 
+   37  wget https://vault.almalinux.org/8.10/devel/Source/Packages/bsh-2.0~b6-3.module_el8.7.0%2B3542%2Bf1ef105f.src.rpm
+   38  wget 
+   39  wget http://vault.almalinux.org/9.4/BaseOS/Source/Packages/binutils-2.35.2-43.el9.src.rpm
+   40  wget https://download.opensuse.org/source/distribution/leap/15.6/repo/oss/src/beignet-1.3.2-6.27.src.rpm 
+   41  wget http://vault.almalinux.org/8.10/PowerTools/Source/Packages/autotrace-0.31.1-55.el8.src.rpm https://www.rpmfind.net/linux/RPM/almalinux/8.10/powertools/s390x/apache-commons-parent-43-2.module_el8.6.0+3182+f8468cf8.noarch.html
+   42  wgetn https://download.fedoraproject.org/pub/epel/8/Everything/SRPMS/i/ImageMagick-6.9.13.17-1.el8.src.rpm
+   43  wget https://download.fedoraproject.org/pub/epel/8/Everything/SRPMS/i/ImageMagick-6.9.13.17-1.el8.src.rpm
+   44  wget https://rpms.remirepo.net/SRPMS/ImageMagick-6.9.13.22-1.el8.remi.src.rpm
+   45  wget https://download.fedoraproject.org/pub/epel/9/Everything/SRPMS/i/ImageMagick-6.9.13.17-1.el9.src.rpm
+   46  wget https://www.rpmfind.net/linux/RPM/fedora/39/x86_64/i/ImageMagick-7.1.1.15-1.fc39.x86_64.html
+   47  sget https://download.opensuse.org/source/distribution/leap/15.6/repo/oss/src/pmdk-1.11.1-150400.1.10.src.rpm
+   48  wget https://download.opensuse.org/source/distribution/leap/15.6/repo/oss/src/pmdk-1.11.1-150400.1.10.src.rpm
+   49  wget http://mirror.stream.centos.org/9-stream/BaseOS/source/tree/Packages/util-linux-2.37.4-11.el9.src.rpm
+   50  wget https://download.opensuse.org/ports/armv6hl/source/tumbleweed/repo/oss/src/golang-github-cpuguy83-go-md2man-2.0.0+git20190314.f79a8a8-2.3.src.rpm
+   51  wget https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/b/blivet-gui-2.6.0-3.fc43.src.rpm
+   52  wget https://download.fedoraproject.org/pub/epel/8/Everything/SRPMS/b/blivet-gui-2.1.15-1.el8.src.rpm
+   53  wget https://download.fedoraproject.org/pub/fedora/linux/updates/39/Everything/SRPMS/Packages/b/blivet-gui-2.6.0-1.fc39.src.rpm
+   54  wget https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/source/tree/Packages/b/blivet-gui-2.4.2-4.fc39.src.rpm
+   55  ./tail_messages.sh
+   56  mc
+   57  cd /home
+   58  ll
+   59  su vncuser
+   60  rpm -qi exiv2
+   61  `
+   62  ./tail_messages.sh
+   63  wget 
+   64  wget https://downloads.linux.hpe.com/SDR/repo/fwpp-gen10/RedHat/8.3/x86_64/current/firmware-ilo5-3.01-1.1.x86_64.rpm
+   65  mv SRPMS SRPMS1
+   66  service smb restart
+   67  dnf install smb*
+   68  chkconfig --list
+   69  systemctl list-unit-files | grep smb
+   70  ps aux | grep Xvnc
+   71  service vsftpd status
+   72  chmod 777 -R pub 
+   73  mv vsftpd.conf vsftpd.conf1
+   74  taouch vsftpd.conf
+   75  touch vsftpd.conf
+   76  service vsftpd restart
+   77  journalctl -xe
+   78  mv vsftpd.conf vsftpd.conf2
+   79  mv vsftpd.conf2 vsftpd.conf
+   80  mv vsftpd.conf vsftpd.conf2
+   81  mv vsftpd.conf1 vsftpd.conf
+   82  service vsftpd restart
+   83  service mybuild stop
+   84  ps aux | grep "rpmbuild -ba"
+   85  service mybuild status
+   86  ps aux | grep "rpmbuild -ba"
+   87  rpm -ivh GConf2-3.2.6-22.el8.src.rpm 
+   88  rpmbuild -ba GConf2.spec 
+   89  service vsftpd status
+   90  service vsftpd restart
+   91  mount -t nfs 162.120.19.7:/nfs-pool/monster /mnt
+   92  history | grep mount
+   93  mount -t nfs 162.120.19.7:/nfs-pool/monster /mnt
+   94  rpm -ivh NetworkManager-1.26.0-12.el8_3.src.rpm 
+   95  rpmbuild -ba NetworkManager.spec 
+   96  dnf install gobject-introspection
+   97  dnf install gobject-introspection-devel
+   98  dnf install gobject-introspection*
+   99  dnf install *gobject-introspection*
+  100  dnf install *gobject*
+  101  dnf install python3-gobject
+  102  rpmbuild -ba NetworkManager.spec 
+  103  dnf isntall pygobject gtk-doc
+  104  dnf install pygobject gtk-doc
+  105  dnf reinstall pygobject
+  106  dnf reinstall python3-gobject
+  107  pkg-config --modversion gobject-2.0
+  108  rpmbuild -ba NetworkManager.spec 
+  109  rpm -ivh bcc-0.14.0-4.el8.src.rpm 
+  110  exit
+  111  rpm -qa | grep gobject
+  112  dnf install pygojbect3
+  113  dnf install python3-gobject*
+  114  dnf search introspection
+  115  dnf install pygobject3-devel
+  116  dnf install liblangtag-gobject
+  117  rpmbuild -ba NetworkManager.spec 
+  118  rpm -ivh OpenIPMI-2.0.27-1.el8.src.rpm 
+  119  rpm -ivh ant-1.10.5-1.module_el8.0.0+47+197dca37.src.rpm 
+  120  wget http://vault.almalinux.org/8.10/BaseOS/Source/Packages/OpenIPMI-2.0.31-3.el8.src.rpm
+  121  rpm -ivh OpenIPMI-2.0.31-3.el8.src.rpm 
+  122  rpmbuild -ba OpenIPMI.spec 
+  123  rpmbuild -ba ant.spec 
+  124  dnf builddep ant.spec 
+  125  rpm -qa | grep ant
+  126  dnf builddep ant.spec 
+  127  dnf clean all
+  128  dnf builddep ant.spec 
+  129  dnf module list
+  130  dnf install --no-modules antlr-tool
+  131  dnf clean all
+  132  dnf update
+  133  dnf builddep ant.spec 
+  134  rpm -qai ant
+  135  dnf download https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/ant-junit-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.noarch.rpm
+  136  dnf install ant-junit-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.noarch.rpm 
+  137  dnf reinstall ant-junit
+  138  dnf clean all
+  139  dnf reinstall ant-junit
+  140  rpm -e antt-junit
+  141  rpm -e ant-junit
+  142  dnf install ant-junit
+  143  https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/ant-junit-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.noarch.rpm
+  144  dnf reinstall ant-junit
+  145  dnf download ant-junit
+  146  dnf clean all
+  147  rpm -qi ant-jnuit
+  148  rpm -qi ant-jnit
+  149  rpm -qi ant
+  150  dnf install ant-junit
+  151  dnf builddep ant.spec 
+  152  dnf buildep ant.spec 
+  153  dnf builddep ant.spec 
+  154  dnf search ant
+  155  dnf reinstall ant
+  156  cat almalinux.repo 
+  157  dnf install ant-junit
+  158  dnf clean
+  159  dnf clean all
+  160  dnf install ant-junit
+  161  ping mirror.se.altushost.com
+  162  ~https://mirror.se.altushost.com/almalinux/8.10/devel/aarch64/os/Packages/
+  163  dnf install ant-junit
+  164  dnf clean all
+  165  dnf install ant-junit
+  166  dnf download https://mirror.se.altushost.com/almalinux/8.10/devel/aarch64/os/Packages/ant-junit-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.noarch.rpm
+  167  dnf search ant-junit
+  168  dnf search ant-*
+  169  dnf install ant-junit
+  170  dnf install ant-junit-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.noarch.rpm 
+  171  dnf clean all
+  172  dnf reinstall ant-junit
+  173  dnf clean all
+  174  dnf reinstall ant-junit
+  175  dnf install ant-junit
+  176  dnf remove ant-junit
+  177  dnf install ant-junit
+  178  passwd 
+  179  rpm -qa | grep dbus
+  180  systemctl --list-unit-files
+  181  systemctl list-unit-files
+  182  systemctl list-unit-files > 1112
+  183  cat 1111 | sort > 11111
+  184  cat 1112 | sort > 11121
+  185  diff -uNr 11121 11111 >11111.patch
+  186  service firewalld status
+  187  mv New\ Folder gusle_cciss
+  188  /usr/libexec/platform-python -c '
+  189  import dnf, json
+  190  db = dnf.dnf.Base()
+  191  db.conf.substitutions.update_from_etc("/")
+  192  print(json.dumps(db.conf.substitutions, indent=2))'
+  193  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/
+  194  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/bcel-6.4.1-2.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  195  dnf install https://rpmfind.net/linux/opensuse/distribution/leap/15.6/repo/oss/aarch64/antlr-2.7.7-150200.18.7.5.aarch64.rpm
+  196  dnf install maven
+  197  dnf builddep ant.spec 
+  198  mv yum.repos.d yum.repos.d1
+  199  cp yum.repos.d1 yum.repos.d
+  200  mv yum.repos.d1_ yum.repos.d
+  201  dnf install ant-junit
+  202  dnf donwload ant-junit
+  203  dnf download ant-junit
+  204  dnf clean all
+  205  dnf search ant
+  206  dnf search ant-
+  207  mv yum.repos.d yum.repos.d_
+  208  mv yum.repos.d1 yum.repos.d
+  209  mv Package Packages
+  210  wget https://repo.almalinux.org/almalinux/8.10/devel/aarch64/os/Packages/ant-junit-1.10.9-1.module_el8.10.0%2B3759%2Bf5d3ff2b.noarch.rpm
+  211  dnf install ant-junit-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.noarch.rpm 
+  212  dnf builddep ant.spec 
+  213  dnf clean all
+  214  dnf builddep ant.spec 
+  215  dnf builddep ant.spec | grep matching
+  216  rpm -qa | grep bcel
+  217  dnf install bcel
+  218  dnf builddep ant.spec | grep matching
+  219  dnf install antlr
+  220  dnf builddep ant.spec 
+  221  dnf builddep ant.spec | grep match
+  222  rpm -qa | grep regexp
+  223  dnf install regexp
+  224  mvn clean install
+  225  dnf builddep ant.spec | grep matching
+  226  dnf install rpmdevtools 
+  227  dnf install maven-repository
+  228  touch settings.xml
+  229  dnf builddep ant.spec | grep matching
+  230  mvn dependency:get -Dartifact=antlr:antlr:2.7.7
+  231  dnf builddep ant.spec | grep matching
+  232  dnf install rpm-maven-plugin
+  233  mvn clean install -Dmaven.repo.local=/path/to/local/repo
+  234  dnf install install antlr
+  235  dnf install antlr
+  236  dnf install jdepend
+  237  rpm -qf junit 
+  238  wget https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/jdepend-2.9.1-20.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  239  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/jdepend-2.9.1-20.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  240  dnf builddep ant.spec | grep matching
+  241  dnf install https://rpmfind.net/linux/opensuse/ports/i586/tumbleweed/repo/oss/noarch/oro-2.0.8-298.2.noarch.rpm
+  242  dnf builddep ant.spec | grep matching
+  243  dnf install regexp
+  244  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/regexp-1.5-28.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  245  dnf builddep ant.spec | grep matching
+  246  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/ppc64le/os/Packages/jsch-0.1.55-3.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  247  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/ppc64le/os/Packages/jsch-0.1.55-3.module_el8.7.0+3542+f1ef105f.noarch.rpm jzlib
+  248  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/ppc64le/os/Packages/jsch-0.1.55-3.module_el8.7.0+3542+f1ef105f.noarch.rpm https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/jzlib-1.1.3-10.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  249  dnf remove jsch
+  250  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/jsch-0.1.55-3.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  251  dnf reinstall jsch
+  252  dnf clean all
+  253  dnf reinstall jsch
+  254  dnf remove jsch 
+  255  dnf install jsch
+  256  dnf module list
+  257  dnf module reset maven
+  258  dnf install jsch
+  259  dnf install maven
+  260  dnf search jsch
+  261  dnf install jsch
+  262  dnf module list | less
+  263  dnf install --allowerasing jsch
+  264  dnf module reset maven
+  265  rpm -qa | grep jsch
+  266  dnf install jsch
+  267  dnf --setopt=module_platform_id=platform:el8 install jsch
+  268  dnf install --disablemodularfiltering jsch
+  269  man dnf 
+  270  dnf install --disable-modular-filtering jsch
+  271  man dnf
+  272  dnf install --disable-modular-filtering jsch
+  273  dnf config-manager --set-disabled maven
+  274  dnf module list | grep maven
+  275  dnf config-manager --set-disabled maven
+  276  dnf install maven
+  277  dnf module enable maven:3.5
+  278  dnf install jsch
+  279  dnf install maven
+  280  dnf module install maven
+  281  dnf module info maven:3.5
+  282  dnf module info maven:3.5 | grep 3542+f1ef105f
+  283  dnf module info maven:3.5 | grep f1ef105f
+  284  dnf module list ant
+  285  dnf module info ant
+  286  dnf repolist
+  287  dnf clean all
+  288  dnf repolist
+  289  dnf module info ant
+  290  dnf remove ant
+  291  dnf module info ant
+  292  dnf instal ant-jsch
+  293  dnf install ant-jsch
+  294  dnf module list
+  295  dnf clean all
+  296  dnf module list
+  297  dnf install jsh
+  298  dnf install jsch
+  299  dnf install ant
+  300  rpm -qa | grep ant
+  301  dnf module list ant
+  302  dnf module remove ant
+  303  rpm -qa | grep ant
+  304  dnf module install ant
+  305  dnf module install ant/common
+  306  dnf install ant
+  307  dnf builddep ant.spec 
+  308  dnf builddep ant.spec  | match
+  309  dnf builddep ant.spec  | grep  match
+  310  dnf install ant-junit
+  311  dnf install ant-junit-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.noarch.rpm 
+  312  dnf builddep ant.spec | grep match
+  313  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/jsch-0.1.55-3.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  314  dnf install maven javax.mail
+  315  dnf install https://rpmfind.net/linux/almalinux/9.5/AppStream/aarch64/os/Packages/jakarta-mail-1.6.5-5.el9.noarch.rpm
+  316  dnf builddep ant.spec | grep match
+  317  dnf install https://rpmfind.net/linux/opensuse/ports/aarch64/tumbleweed/repo/oss/aarch64/antlr-2.7.7-125.2.aarch64.rpm
+  318  dnf install https://rpmfind.net/linux/opensuse/ports/aarch64/tumbleweed/repo/oss/aarch64/antlr-2.7.7-125.2.aarch64.rpm antlr-java
+  319  dnf install https://rpmfind.net/linux/opensuse/ports/aarch64/tumbleweed/repo/oss/aarch64/antlr-2.7.7-125.2.aarch64.rpm antlr-java https://rpmfind.net/linux/opensuse/tumbleweed/repo/oss/noarch/antlr-java-2.7.7-125.3.noarch.rpm
+  320  rpmbuild -ba ant.spec 
+  321  dnf install commons-net
+  322  dnf install https://rpmfind.net/linux/opensuse/ports/zsystems/tumbleweed/repo/oss/noarch/apache-commons-net-3.9.0-2.2.noarch.rpm
+  323  dnf install xalan
+  324  rpmbuild -ba ant.spec 
+  325  dnf builddep ant.spec | grep match
+  326  dnf install xalan
+  327  dnf install xalan-j2
+  328  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/ppc64le/os/Packages/xalan-j2-2.7.2-2.module_el8.7.0+3542+f1ef105f.noarch.rpm 
+  329  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/ppc64le/os/Packages/xalan-j2-2.7.2-2.module_el8.7.0+3542+f1ef105f.noarch.rpm https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/xml-commons-resolver-1.2-28.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  330  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/ppc64le/os/Packages/xalan-j2-2.7.2-2.module_el8.7.0+3542+f1ef105f.noarch.rpm https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/xml-commons-resolver-1.2-28.module_el8.7.0+3542+f1ef105f.noarch.rpm https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/xml-commons-apis-1.4.01-27.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  331  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/ppc64le/os/Packages/xalan-j2-2.7.2-2.module_el8.7.0+3542+f1ef105f.noarch.rpm https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/xml-commons-resolver-1.2-28.module_el8.7.0+3542+f1ef105f.noarch.rpm https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/xml-commons-apis-1.4.01-27.module_el8.7.0+3542+f1ef105f.noarch.rpm https://rpmfind.net/linux/almalinux/8.10/PowerTools/s390x/os/Packages/xerces-j2-2.11.0-34.module_el8.6.0+3182+f8468cf8.noarch.rpm
+  332  rpmbuild -ba ant.spec 
+  333  dnf install https://rpmfind.net/linux/opensuse/ports/zsystems/tumbleweed/repo/oss/noarch/apache-commons-net-3.9.0-2.2.noarch.rpm
+  334  rpmbuild -ba ant.spec 
+  335  dnf install dnf install java-11-openjdk
+  336  alternatives --config java
+  337  rpmbuild -ba ant.spec 
+  338  java --version
+  339  alternatives --config java
+  340  java --version
+  341  dnf reinstall java-1.8.0-openjdk
+  342  java --version
+  343  java 
+  344  java -version
+  345  rpmbuild -ba ant.spec 
+  346  update-alternatives --config java
+  347  java -version
+  348  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
+  349  export PATH=$JAVA_HOME/bin:$PATH
+  350  rpmbuild -ba ant.spec 
+  351  mvn install:install-file -Dfile=/path/to/activation-1.2.0.jar -DgroupId=javax.activation -DartifactId=activation -Dversion=1.2.0 -Dpackaging=jar
+  352  wget http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp
+  353  wget https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.jar
+  354  wget https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar
+  355  mvn install:install-file -Dfile=https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar -DgroupId=javax.activation -DartifactId=activation -Dversion=1.2.0 -Dpackaging=jar
+  356  mvn install:install-file -Dfile=activation-1.2.0.jar -DgroupId=javax.activation -DartifactId=activation -Dversion=1.2.0 -Dpackaging=jar
+  357  mv javax.activation-1.2.0.jar activation-1.2.0.jar 
+  358  mvn install:install-file -Dfile=activation-1.2.0.jar -DgroupId=javax.activation -DartifactId=activation -Dversion=1.2.0 -Dpackaging=jar
+  359  rpmbuild -ba ant.spec 
+  360  locate pom.xml
+  361  updatedb
+  362  locate pom.xml
+  363  mvn install:install-file -Dfile=activation-1.2.0.jar -DgroupId=javax.activation -DartifactId=activation -Dversion=1.2.0 -Dpackaging=jar
+  364  rpmbuild -ba ant.spec 
+  365  rpm -qi open-jdk
+  366  rpm -qa | grep jk
+  367  rpm -qa | grep jdk
+  368  alternatives --config java
+  369  java -version
+  370  java -v
+  371  java -version
+  372  rpmbuild -ba ant.spec
+  373  rpm -qa | grep resolver
+  374  wget http://vault.almalinux.org/8.10/AppStream/Source/Packages/ant-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.src.rpm
+  375  rpm -ivh ant-1.10.9-1.module_el8.10.0+3759+f5d3ff2b.src.rpm 
+  376  rpmbuild -ba ant.spec 
+  377  df -ah
+  378  strace --syscall-times -o dfTraceFile.txt df -h
+  379  rpm -qi glibc
+  380  rpm -qa | grep core
+  381  make install
+  382  rpm -qi open-vm-tools
+  383  dnf install open-vm-tools
+  384  dnf install https://rpmfind.net/linux/epel/8/Everything/aarch64/Packages/h/htop-3.2.1-1.el8.aarch64.rpm
+  385  htop
+  386  rpmbuild -ba ant.spec 
+  387  locate resolver.jar
+  388  rpm -qf /usr/share/java/xml-resolver.jar
+  389  rpm -qf /usr/share/java/xml-commons-resolver.jar
+  390  dnf remove xml-commons-resolver
+  391  dnf install https://rpmfind.net/linux/almalinux/8.10/PowerTools/s390x/os/Packages/xml-commons-resolver-1.2-26.module_el8.6.0+3182+f8468cf8.noarch.rpm
+  392  dnf install https://rpmfind.net/linux/almalinux/8.10/PowerTools/s390x/os/Packages/xalan-j2-2.7.1-38.module_el8.6.0+3182+f8468cf8.noarch.rpm
+  393  mc
+  394  su vpnuser
+  395  ls /home
+  396  su vncuser
+  397  dnf install https://rpmfind.net/linux/almalinux/8.10/PowerTools/s390x/os/Packages/xalan-j2-2.7.1-38.module_el8.6.0+3182+f8468cf8.noarch.rpm https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/xerces-j2-2.12.0-4.module_el8.7.0+3542+f1ef105f.noarch.rpm
+  398  rpmbuild -ba ant.spec
+  399  dnf downgrade https://rpmfind.net/linux/almalinux/8.10/PowerTools/s390x/os/Packages/regexp-1.5-26.module_el8.6.0+3182+f8468cf8.noarch.rpm
+  400  rpmbuild -ba ant.spec
+  401  dnf downgrade https://rpmfind.net/linux/almalinux/8.10/PowerTools/aarch64/os/Packages/jdepend-2.9.1-18.module_el8.0.0+6004+2fc32706.noarch.rpm
+  402  rpmbuild -ba ant.spec
+  403  rpmbuild -ba ant.spec --nocheck
+  404  wget http://vault.almalinux.org/8.10/AppStream/Source/Packages/bcc-0.25.0-9.el8_10.src.rpm
+  405  dnf builddep bcc-0.25.0-9.el8_10.src.rpm 
+  406  rpm -ivh biosdevname-0.7.3-2.el8.src.rpm 
+  407  rpmbuild -ba --nocheck biosdevname.spec 
+  408  rpm -ivh bpftrace-0.10.0-4.el8.src.rpm 
+  409  rpmbuild -ba bpftrace.spec 
+  410  wget https://download.fedoraproject.org/pub/epel/9/Everything/SRPMS/l/llvm12-12.0.1-6.el9.src.rpm
+  411  https://download.fedoraproject.org/pub/
+  412  wget https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/source/tree/Packages/l/llvm12-12.0.1-9.fc39.src.rpm
+  413  rpm -ivh llvm12-12.0.1-9.fc39.src.rpm 
+  414  rpmbuild -ba --nocheck llvm12.spec 
+  415  c++
+  416  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/centos/8.5.2111/AppStream/Source/SPackages/llvm-12.0.1-2.module_el8.5.0+918+ed335b90.src.rpm
+  417  dnf downgrad llvm
+  418  dnf downgrade llvm
+  419  dnf downgrade llvm llvm-compat-libs 
+  420  llvm downgrade llvm
+  421  dnf downgrade llvm
+  422  mv dnf dnf2
+  423  service httpd restart
+  424  chmod 755 gusle_cciss 
+  425  echo 'root:administrato123!Q' | chpasswd
+  426  rpmbuild -ba --nocheck bpftrace.spec 
+  427  mv gusle_cciss.part05.rar gusle_cciss.part05.rar.gz
+  428  mv gusle_cciss.part06.rar gusle_cciss.part06.rar.gz
+  429  mv gusle_cciss.part07.rar gusle_cciss.part07.rar.gz
+  430  mv gusle_cciss.part08.rar gusle_cciss.part08.rar.gz
+  431  mv gusle_cciss.part09.rar gusle_cciss.part09.rar.gz
+  432  mv gusle_cciss.part10.rar gusle_cciss.part10.rar.gz
+  433  mv gusle_cciss.part11.rar gusle_cciss.part11.rar.gz
+  434  touch aaa
+  435  chmod 777 aaa 
+  436  ./aaa
+  437  dnf install git
+  438  git config --global user.name "grantjacksonlab"
+  439  git config --global user.email "grantjacksonlab@outlook.com"
+  440  make clean
+  441  git init
+  442  git add .
+  443  git commit -m "Initial commit"
+  444  git remote add origin  https://github.com/grantjacksonlab/ubi-goggles.git
+  445  git push -u origin master
+  446  git remote add origin  https://github.com/grantjacksonlab/ubi-goggles
+  447  git remote remove origin  https://github.com/grantjacksonlab/ubi-goggles.git
+  448  git remote list
+  449  git remote remove 
+  450  git remote remove origin
+  451  git remote add origin  https://github.com/grantjacksonlab/ubi-goggles
+  452  git push -u origin master
+  453  ssh-keygen -t rsa -b 4096 -C "grantjacksonlab@outlook.com"
+  454  eval "$(ssh-agent -s)"
+  455  ssh-add ~/.ssh/id_rsa
+  456  cat ~/.ssh/id_rsa.pub
+  457  git remote set-url origin git@github.com:grantjacksonlab/ubi-goggles
+  458  git remote set-url origin git@github.com:grantjacksonlab/ubi-goggles.git
+  459  git remote set-url origin git@github.com/grantjacksonlab/ubi-goggles.git
+  460  git remote set-url origin git@github.com/grantjacksonlab/ubi-goggles
+  461  git remote set-url origin git@github.com:grantjacksonlab/ubi-goggles
+  462  git remote set-url origin git@github.com:grantjacksonlab/ubi-goggles.git
+  463  ssh -T git@github.com
+  464  git remote set-url origin git@github.com:grantjacksonlab/ubi-goggles.git
+  465  l
+  466  service mybuild start
+  467  ps aux | grep "rpmbuilde -ba"
+  468  serviec mybuild status
+  469  service mybuild status
+  470  ps aux | grep "rpmbuilde -ba"
+  471  ps aux | grep "rpmbuild -ba"
+  472  mc
+  473  su vncuser
+  474  date
+  475  echo >builddep_error 
+  476  echo >rpmbuild_error 
+  477  alternatives --config python
+  478  python
+  479  top
+  480  htop
+  481  ps aux | grep "rpmbuild -ba"
+  482  df -ah
+  483  ps aux | grep "rpmbuild -ba"
+  484  dnf install mock lorax pungi
+  485  rpm -qf 
+  486  rpm -qf alma+epel-8-aarch64.cfg 
+  487  pungi --arch aarch64 --variant minimal --logfile /tmp/build.log
+  488  dnf install pungi
+  489  gungi
+  490  pungi
+  491  rpm -ql pungi
+  492  systemctl status vmware-tools
+  493  chkconfig --list
+  494  systemctl list-unit-files | grep vm
+  495  dnf install open-vm-tools
+  496  dnf install https://rpmfind.net/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/o/open-vm-tools-12.3.0-1.fc39.aarch64.rpm
+  497  dnf install https://rpmfind.net/linux/mageia/distrib/9/aarch64/media/core/release/open-vm-tools-12.1.5-2.mga9.aarch64.rpm
+  498  wget https://rpm.pbone.net/resultsb_dist_120_size_4027988_name_open-vm-tools-11.2.5-1.mga8.src.rpm.html
+  499  wget ftp://ftp.icm.edu.pl/vol/rzm1/linux-mageia/distrib/8/SRPMS/core/release/open-vm-tools-11.2.5-1.mga8.src.rpm
+  500  su vncuser
+  501  tail -f /var/log/messages 
+  502  wget https://download.opensuse.org/source/distribution/leap/15.5/repo/oss/src/open-vm-tools-12.2.0-150300.26.1.src.rpm
+  503  dnf builddep open-vm-tools.spec 
+  504  dnf buildep open-vm-tools.spec 
+  505  dnf install https://rpmfind.net/linux/opensuse/distribution/leap/15.6/repo/oss/noarch/update-desktop-files-84.87-1.16.noarch.rpm
+  506  dnf install https://rpmfind.net/linux/opensuse/distribution/leap/15.6/repo/oss/noarch/xorg-x11-devel-7.6.1-1.16.noarch.rpm
+  507  dnf install Mesa-libEGL-devel freetype2-devel libFS-devel libXTrap-devel libXevie-devel libXfont-devel libXfontcache-devel libXi6-devel libXprintAppUtil-devel libXprintUtil-devel liblbxutil-devel liboldX-devel libpixman-1-0-devel libxkbui-devel xbitmaps-devel xorg-cf-files xorg-x11-fonts-devel xorg-x11-libxcb-devel xorg-x11-libxkbfile-devel
+  508  mv dnf.tar.gz dnf3.tar.gz 
+  509  dnf clean all
+  510  dnf install Mesa-libEGL-devel freetype2-devel libFS-devel libXTrap-devel libXevie-devel libXfont-devel libXfontcache-devel libXi6-devel libXprintAppUtil-devel libXprintUtil-devel liblbxutil-devel liboldX-devel libpixman-1-0-devel libxkbui-devel xbitmaps-devel xorg-cf-files xorg-x11-fonts-devel xorg-x11-libxcb-devel xorg-x11-libxkbfile-devel
+  511  rpmbuild -ba ceph.spec 
+  512  mv python python11111
+  513  cp python3 python
+  514  ln -s python3 python
+  515  rpmbuild -ba ceph.spec 
+  516  dnf install redhat-lsb-core
+  517  git add .
+  518  git remote add origin https://github.com/Benjamin8330/multichain-presale-mmix.git
+  519  git remote add origin1 https://github.com/Benjamin8330/multichain-presale-mmix.git
+  520  git remote -v
+  521  git add .
+  522  git commit -m "Initial commit" 
+  523  git push -u origin1 main
+  524  git push -u origin1 master
+  525  git add .
+  526  git commit -m "Initial commit1" 
+  527  git push -u origin1 master
+  528  touch 1-10
+  529  df -ah
+  530  git add .
+  531  gir remove gusle_cciss.part01.rar.gz gusle_cciss.part02.rar.gz gusle_cciss.part03.rar.gz gusle_cciss.part04.rar.gz 
+  532  git remove gusle_cciss.part01.rar.gz gusle_cciss.part02.rar.gz gusle_cciss.part03.rar.gz gusle_cciss.part04.rar.gz 
+  533  git --help
+  534  git rm gusle_cciss.part01.rar.gz gusle_cciss.part02.rar.gz gusle_cciss.part03.rar.gz gusle_cciss.part04.rar.gz 
+  535  git commit -m "Initial commit1-10" 
+  536  git push -u origin1 master
+  537  svn add  .
+  538  svn add .
+  539  git add .
+  540  git commit -m "Initial commit11-50" 
+  541  git push -u origin1 master
+  542  cd 
+  543  cd /var/log/message
+  544  cd /var/log/messages
+  545  tail -f /var/log/messages 
+  546  dnf install mock lorax pungi
+  547  mc
+  548  su vncuser
+  549  cat id_rsa.pub 
+  550  dnf downgrade cmake
+  551  mc
+  552  exit
+  553  tail -f /var/log/messages
+  554  dnf downgrade llvm
+  555  dnf clean all
+  556  dnf install pentaho-reporting-flow-engine
+  557  dnf clean help
+  558  dnf clean --help
+  559  dnf install pentaho-reporting-flow-engine
+  560  dnf module list
+  561  dnf install sac-1.3-30.module_el8.3.0+2038+69403ed1.noarch
+  562  dnf install sac
+  563  dnf info sac
+  564  dnf search sac
+  565  dnfdnf provides sac
+  566  dnf provides sac
+  567  dnf module provides sac
+  568  dnf module list | grep tycho
+  569  dnf module enable tycho
+  570  dnf install sac
+  571  dnf install pentaho-reporting-flow-engine
+  572  dnf install pkgconfig(libabw-0.1)
+  573  dnf install pkgconfig\(libabw-0.1\)
+  574  dnf builddep libreoffice-6.0.6.1-20.el8.src.rpm 
+  575  dnf builddep libreoffice-6.0.6.1-20.el8.src.rpm  | grep matching
+  576  dnf install pkgconfig\(liborcus-0.13\)
+  577  dnf builddep libreoffice-6.0.6.1-20.el8.src.rpm  | grep matching
+  578  dnf install https://rpmfind.net/linux/almalinux/8.10/AppStream/aarch64/os/
+  579  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/liborcus-devel-0.15.4-2.el8.aarch64.rpm
+  580  dnf install https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/mdds-devel-1.5.0-2.el8.noarch.rpm
+  581  dnf builddep libreoffice-6.0.6.1-20.el8.src.rpm  | grep matching
+  582  rpm -qi liborcus
+  583  rpm -qa | grep liborcus
+  584  dnf download loborcus
+  585  dnf download liborcus
+  586  dnf downgrade liborcus
+  587  rpm -qi clang
+  588  dnf downgrade clang
+  589  locate builddep_error
+  590  createrepo .
+  591  dnf builddep pandoc-2.0.6-6.el8_6.src.rpm pandoc-2.0.6-6.el8_6.src.rpm 
+  592  dnf builddep ipa-idoverride-memberof-0.0.4-6.module_el8.2.0+374+0d2d74a1.src.rpm 
+  593  rpm -qi python3-dns
+  594  dnf builddep ipa-idoverride-memberof-0.0.4-6.module_el8.2.0+374+0d2d74a1.src.rpm 
+  595  mc
+  596  su vncuser
+  597  dnf module info python3-ipaserver
+  598  history | grep module
+  599  dnf module provides python3-ipaserver
+  600  dnf module enable idm
+  601  dnf builddep ipa-idoverride-memberof-0.0.4-6.module_el8.2.0+374+0d2d74a1.src.rpm 
+  602  dnf module reset idm
+  603  dnf builddep ipa-idoverride-memberof-0.0.4-6.module_el8.2.0+374+0d2d74a1.src.rpm 
+  604  dnf module list | grep idm
+  605  dnf module reset idm:DL1
+  606  dnf module enable idm:DL1
+  607  dnf builddep ipa-idoverride-memberof-0.0.4-6.module_el8.2.0+374+0d2d74a1.src.rpm 
+  608  dnf install python3-dns python3-sssdconfig
+  609  dnf builddep ipa-idoverride-memberof-0.0.4-6.module_el8.2.0+374+0d2d74a1.src.rpm 
+  610  dnf install python3-asn1crypto
+  611  dnf builddep ipa-idoverride-memberof-0.0.4-6.module_el8.2.0+374+0d2d74a1.src.rpm 
+  612  dnf builddep ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm 
+  613  dnf remove libsss*
+  614  dnf builddep ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm 
+  615  dnf install libsss_nss_idmap
+  616  dnf builddep ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm 
+  617  dnf install libsss_certmap
+  618  dnf install libsss_idmap
+  619  dnf builddep ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm 
+  620  cat rpmbuild_error | sort | uniq
+  621  cat rpmbuild_error | sort | uniq > c_error
+  622  dnf builddep pandoc-2.0.6-6.el8_6.src.rpm 
+  623  df -ah
+  624  wget -r -np -nH --cut-dirs=5 -R "index.html*" https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/Packages/
+  625  c
+  626  createrepo .
+  627  ps aux | grep "rpmbuild -ba"
+  628  cat builddep_error | sort | uniq > b_error
+  629  dnf builddep xorg-x11-drv-intel-2.99.917-39.20200205.el8.src.rpm 
+  630  dnf builddep xorg-x11-drv-vmware-13.2.1-8.el8.src.rpm 
+  631  rpm -ivh oracle-epel-release-el8-1.0-5.el8.x86_64.rpm oraclelinux-release-el8-1.0-38.el8.x86_64.rpm 
+  632  dnf builddep xorg-x11-drv-vmware-13.2.1-8.el8.src.rpm 
+  633  dnf builddep ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm 
+  634  ping us-phoenix-1.oraclecloud.com
+  635  ping yum.oraclecloud.us-phoenix-1.oraclecloud.com
+  636  ping yum.oracle.com
+  637  dnf builddep ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm 
+  638  wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/developer/aarch64/*
+  639  dnf builddep ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm ipa-4.8.7-12.module_el8.3.0+511+8a502f20.src.rpm 
+  640  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/8.3.2011/AppStream/Sources/libsss*
+  641  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/8.3.2011/BaseOS/aarch64/os/Packages/libsss_certmap-2.3.0-9.el8.aarch64.rpm
+  642  dnf builddep sssd-2.3.0-9.el8.src.rpm sssd-2.3.0-9.el8.src.rpm 
+  643  rpmbuild -bp sssd.spec 
+  644  su vncuser
+  645  exit
+  646  mc
+  647  su vncuser
+  648  ps aux | grep rpmbuild
+  649  ps aux | grep "rpmbuild -ba"
+  650  echo >rpmbuild_error 
+  651  echo >builddep_error 
+  652  tail -f builddep_error 
+  653  rpmbuild -bp sssd.spec 
+  654  ps aux | grep "rpmbuild -ba"
+  655  dnf builddep perl-IO-Compress-2.093-1.module_el8.3.0+406+78614513.src.rpm 
+  656  perl module providers perl
+  657  dnf module providers perl
+  658  dnf module provider perl
+  659  dnf module provids perl
+  660  dnf module provider perl
+  661  dnf module provides perl
+  662  dnf module provides perl-IO-Compress
+  663  dnf builddep perl-IO-Compress-2.093-1.module_el8.3.0+406+78614513.src.rpm 
+  664  dnf module provides prl-Compress-Raw-Zlib
+  665  dnf module provides perl-Compress-Raw-Zlib
+  666  dnf module enable perl
+  667  dnf module reset perl
+  668  y
+  669  dnf module reset perl
+  670  dnf module provides perl-Compress-Raw-Zlib
+  671  dnf builddep perl-IO-Compress-2.093-1.module_el8.3.0+406+78614513.src.rpm 
+  672  dnf module enable perl
+  673  dnf builddep perl-IO-Compress-2.093-1.module_el8.3.0+406+78614513.src.rpm 
+  674  dnf module enable perl:5.30
+  675  dnf module reset perl
+  676  dnf module enable perl:5.30
+  677  dnf module list perl
+  678  rpm -qi perl
+  679  dnf upgrade perl
+  680  dnf module install perl
+  681  dnf module install perl:5.30
+  682  dnf module remove perl
+  683  dnf module list perl
+  684  dnf search perl
+  685  rpm -qi perl
+  686  dnf builddep perl-IO-Compress-2.093-1.module_el8.3.0+406+78614513.src.rpm 
+  687  dnf install perl-Compress-Raw-Bzip2 --disablemod
+  688  dnf builddep perl-IO-Compress-2.093-1.module_el8.3.0+406+78614513.src.rpm 
+  689  dnf module list | grep perl
+  690  dnf module provides perl-Compress-Raw-Bzip2
+  691  yumdownloader perl-Compress-Raw-Bzip2-2.074-2.module_el8.1.0
+  692  yumdownloader perl-Compress-Raw-Bzip2
+  693  dnf install perl-Compress-Raw-Bzip2-2.081-1.el8.aarch64.rpm 
+  694  dnf builddep perl-IO-Compress-2.093-1.module_el8.3.0+406+78614513.src.rpm 
+  695  dnf upgrade perl-Compress-Raw-Bzip2
+  696  dnf install perl-Compress-Raw-Bzip2
+  697  dnf remove perl-Compress*
+  698  dnf remove perl-Compress-Raw*
+  699  dnf module install perl
+  700  dnf module install perl:5.30
+  701  dnf module remove perl:5.26
+  702  dnf module install perl:5.30
+  703  dnf module reset perl:5.30
+  704  dnf module list perl
+  705  dnf module install perl:5.30 --allowerasing
+  706  dnf builddep perl-IO-Compress-2.093-1.module_el8.3.0+406+78614513.src.rpm 
+  707  dnf builddep perl-JSON-2.97.001-2.el8.src.rpm 
+  708  dnf install perl-Tie-IxHash-
+  709  dnf install perl-Tie-IxHash
+  710  dnf builddep pesign-0.112-25.el8.src.rpm 
+  711  dnf builddep perl-JSON-2.97.001-2.el8.src.rpm --allowerasing
+  712  dnf module install perle:5.26
+  713  dnf module install perle:5.26 --allowerasing
+  714  dnf module remove perl:5.30
+  715  dnf module remove perl:5.26
+  716  dnf module remove perl:5.26 --allowerasing
+  717  dnf module reset perl
+  718  dnf module list perl
+  719  dnf module install perl:5.26
+  720  dnf module install perl:5.26 --allowerasing
+  721  dnf builddep perl-JSON-2.97.001-2.el8.src.rpm 
+  722  dnf builddep perl-JSON-2.97.001-2.el8.src.rpm --allowerasing
+  723  dnf module install perl:5.26 --allowerasing
+  724  dnf builddep perl-JSON-2.97.001-2.el8.src.rpm 
+  725  dnf builddep libdnf-0.39.1-6.el8_2.src.rpm 
+  726  dnf install modulemd
+  727  rpm -qi modulemd
+  728  dnf install libmodulemd*
+  729  dnf install libmodulemd1-devel
+  730  locate libmodulemd1
+  731  createrepo .
+  732  dnf install libmodulemd1-devel
+  733  dnf install libmodulemd1-devel --allowerasing
+  734  dnf builddep libdnf-0.39.1-6.el8_2.src.rpm 
+  735  dnf builddep spacewalk-backend-2.8.48-4.module_el8.1.0+210+a3d63f21.src.rpm 
+  736  dnf builddep spacewalk-usix-2.8.1-5.module_el8.1.0+210+a3d63f21.src.rpm 
+  737  dnf builddep fprintd-1.90.0-0.20191121gitf022902.el8.src.rpm 
+  738  dnf builddep liborcus-0.13.4-2.el8.src.rpm 
+  739  dnf builddep dleyna-connector-dbus-0.3.0-2.el8.src.rpm 
+  740  dnf builddep dleyna-renderer-0.6.0-3.el8.src.rpm 
+  741  dnf builddep dleyna-renderer-0.6.0-3.el8.src.rpm  | grep no
+  742  dnf builddep dleyna-renderer-0.6.0-3.el8.src.rpm  | grep mat
+  743  createrepo .
+  744  rpm -qf python 
+  745  ln -s python3 python
+  746  mv python python_
+  747  ln -s python3 python
+  748  wget http://vault.almalinux.org/8.10/devel/Source/Packages/gupnp-dlna-0.10.5-9.el8.src.rpm
+  749  dnf builddep gupnp-dlna-0.10.5-9.el8.src.rpm 
+  750  date
+  751  createrepo .
+  752  dnf builddep dleyna-renderer-0.6.0-3.el8.src.rpm 
+  753  dnf upgrade gupn*
+  754  createrepo .
+  755  dnf builddep dleyna-renderer-0.6.0-3.el8.src.rpm 
+  756  dnf builddep dleyna-renderer.spec 
+  757  dnf builddep mariadb-10.3.28-1.module_el8.3.0+757+d382997d.src.rpm mariadb-connector-c-3.0.7-1.el8.src.rpm 
+  758  dnf builddep mariadb-10.3.28-1.module_el8.3.0+757+d382997d.src.rpm mariadb-connector-c-3.0.7-1.el8.src.rpm  | grep match
+  759  dnf module provides Judy
+  760  dnf module list mariadb
+  761  dnf module reset mariadb
+  762  dnf install mariadb:10.3
+  763  dnf install mariadb:10.3 --allowerasing
+  764  dnf module install mariadb:10.3
+  765  dnf install Judy
+  766  dnf builddep mariadb-connector-c-3.0.7-1.el8.src.rpm 
+  767  ps aux | grep "rpmbuild -ba"
+  768  dnf builddep mariadb-10.3.28-1.module_el8.3.0+757+d382997d.src.rpm 
+  769  dnf install Judy-devel
+  770  dnf module list mariadb
+  771  dnf module reset mariadb
+  772  dnf install Judy-devel
+  773  dnf module enable mariadb:10.5
+  774  dnf module install mariadb:10.5
+  775  dnf install Judy-devel
+  776  dnf module enable mariadb:10.5
+  777  dnf module list mariadb
+  778  dnf install Judy-devel
+  779  dnf install Judy-devel --allowerasing
+  780  dnf module reset mariadb
+  781  dnf module enable mariadb:10.11
+  782  dnf install Judy-devel --allowerasing
+  783  dnf module install mariadb:10.11 --allowerasing
+  784  dnf module provides Jude
+  785  dnf module provides Jude-devel
+  786  dnf install alsa-lib-devel
+  787  dnf downgrade alsa-lib-devel
+  788  y
+  789  dnf downgrade alsa-lib-devel
+  790  dnf builddep libxklavier-5.4-11.el8.src.rpm 
+  791  dnf builddep cockpit-224.2-1.el8.src.rpm 
+  792  dnf -qi alsa-lib-devel
+  793  rpm -qi alsa-lib
+  794  dnf downgrade alsa-lib
+  795  lcoate pcm_alsa.c
+  796  locate pcm_alsa.c
+  797  dnf install cython
+  798  createrepo .
+  799  ps aux | grep "rpmbuiuld -ba"
+  800  ps aux | grep "rpmbuild -ba"
+  801  serivce mybuild stop
+  802  service mybuild stop
+  803  ./build.sh
+  804  service mybuild start
+  805  ./tail_messages.sh
+  806  dnf builddep nodejs-12.16.1-2.module_el8.2.0+311+974d721c.src.rpm nodejs-12.16.1-2.module_el8.2.0+311+974d721c.src.rpm 
+  807  dnf builddep nodejs-14.15.0-1.module_el8.3.0+622+b959fba6.src.rpm 
+  808  tail -f builddep_error 
+  809  ln -s cython3 cython
+  810  cython
+  811  dnf install Judy-devel
+  812  dnf install Judy-devel-1.0.5-18.module_el8.10.0+3955+6534edaf.aarch64.rpm 
+  813  createrepo .
+  814  dnf instal bison-devel
+  815  dnf install bison-devel
+  816  dnf builddep dleyna-renderer-0.6.0-3.el8.src.rpm 
+  817  dnf search gupnp-dlna*
+  818  dnf search gupnp
+  819  rpm -ql gupnp
+  820  rpm -qa | grep  gupnp
+  821  ./tail_messages.sh
+  822  dnf builddep *
+  823  dnf builddep * | grep matching
+  824  dnf install https://rpmfind.net/linux/opensuse/tumbleweed/repo/oss/noarch/memory-constraints-20180406-5.2.noarch.rpm
+  825  dnf install https://rpmfind.net/linux/opensuse/ports/i586/tumbleweed/repo/oss/noarch/golang-packaging-15.0.17-2.7.noarch.rpm
+  826  dnf install https://rpmfind.net/linux/opensuse/distribution/leap/15.6/repo/oss/x86_64/beignet-devel-1.3.2-6.27.x86_64.rpm
+  827  wget https://rpmfind.net/linux/opensuse/distribution/leap/15.6/repo/oss/x86_64/beignet-devel-1.3.2-6.27.x86_64.rpm
+  828  wge https://download.opensuse.org/source/distribution/leap/15.6/repo/oss/src/beignet-1.3.2-6.27.src.rpm
+  829  wget https://download.opensuse.org/source/distribution/leap/15.6/repo/oss/src/beignet-1.3.2-6.27.src.rpm
+  830  dnf install https://rpmfind.net/linux/mageia/distrib/8/aarch64/media/core/release/automoc4-0.9.88-11.mga8.aarch64.rpm
+  831  wget https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/source/tree/Packages/h/herqq-1.0.0-29.fc39.src.rpm
+  832  dnf builddep herqq-1.0.0-29.fc39.src.rpm 
+  833  touch aa.py
+  834  python aa.py 
+  835  ps aux | grep "rpmbuild -ba"
+  836  createrepo .
+  837  dnf install libsss_certmap-devel-2.3.0-9.el8.aarch64.rpm libsss_certmap-2.3.0-9.el8.aarch64.rpm 
+  838  dnf install libsss_idmap-devel-2.3.0-9.el8.aarch64.rpm 
+  839  dnf install libsss_nss_idmap-devel-2.3.0-9.el8.aarch64.rpm 
+  840  ./tail_messages.sh
+  841  dnf builddep varnish-6.0.2-1.module_el8.0.0+19+b2cdb875.src.rpm varnish-6.0.2-1.module_el8.0.0+19+b2cdb875.src.rpm 
+  842  ./tail_messages.sh
+  843  dnf install pungi
+  844  mv buildd build
+  845  wget https://download.fedoraproject.org/pub/epel/8/Everything/SRPMS/p/pungi-4.1.38-1.el8.2.src.rpm
+  846  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/8.3.2011/infra/Source/buildtools-common/pungi-4.2.3-2.el8.src.rpm
+  847  dnf install livecd-tools
+  848  wget https://mirror.5i.fi/fedora/epel/8/Everything/SRPMS/Packages/l/livecd-tools-31.0-1.el8.src.rpm
+  849  dnf install koji
+  850  wget https://download.fedoraproject.org/pub/epel/8/Everything/SRPMS/k/koji-1.35.1-2.el8.src.rpm
+  851  yumdonwloader --source mock
+  852  yumdownloader --source mock
+  853  dnf builddep koji-1.35.1-2.el8.src.rpm 
+  854  dnf builddep *
+  855  top
+  856  htop
+  857  wget https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/m/mock-6.1-1.fc43.src.rpm
+  858  dnf builddep livecd-tools-31.0-1.el8.src.rpm 
+  859  dnf builddep mock-6.1-1.fc43.src.rpm 
+  860  dnf builddep cockpit-appstream-224.2-1.el8.src.rpm 
+  861  wget http://vault.almalinux.org/9.4/AppStream/Source/Packages/open-vm-tools-12.3.5-2.el9.src.rpm
+  862  dnf builddep open-vm-tools-12.3.5-2.el9.src.rpm 
+  863  dnf builddep cockpit-224.2-1.el8.src.rpm 
+  864  createrepo .
+  865  dnf install open-vm-tools-devel
+  866  dnf install open-vm-tools-devel-12.3.5-2.el8.aarch64.rpm open-vm-tools-desktop-12.3.5-2.el8.aarch64.rpm open-vm-tools-12.3.5-2.el8.aarch64.rpm 
+  867  chkconfig --list
+  868  systemctl list-unit-files | grep vm
+  869  service vmtoolsd status
+  870  service vmtoolsd start
+  871  service vmtoolsd status
+  872  virt-what 
+  873  yum install qemu-guest-agent
+  874  systemctl status qemu-guest-agent
+  875  systemctl edit qemu-guest-agent
+  876  service qemu-guest-agent.service stop
+  877  mv coreutils-8.30-8.el8.src.rpm_ coreutils-8.30-8.el8.src.rpm
+  878  createrepo .
+  879  dnf builddep compat-libgfortran-48-4.8.5-36.1.el8.src.rpm 
+  880  dnf builddep cups-filters-1.20.0-20.el8.src.rpm 
+  881  dnf module list gcc
+  882  dnf module list | grep gcc
+  883  dnf module list
+  884  dnf module provides gcc
+  885  dnf module provides nodejs
+  886  dnf downgrade gcc
+  887  rpm -qi gcc
+  888  dnf downgrade gcc
+  889  dnf downgrade --help
+  890  dnf downgrade gcc
+  891  dnf downgrade gcc --allowerasing
+  892  dnf download perl-podlators --allowerasing
+  893  dnf install https://rpmfind.net/linux/almalinux/8.10/AppStream/aarch64/os/Packages/perl-podlators-4.09-4.module_el8.4.0+2396+b2b60bb5.noarch.rpm
+  894  dnf install https://rpmfind.net/linux/almalinux/8.10/AppStream/aarch64/os/Packages/perl-podlators-4.09-4.module_el8.4.0+2396+b2b60bb5.noarch.rpm --allowerasing
+  895  dnf install https://rpmfind.net/linux/almalinux/8.10/AppStream/aarch64/os/Packages/perl-podlators-4.09-4.module_el8.4.0+2396+b2b60bb5.noarch.rpm --allowerasing --nobest
+  896  dnf module install perl:5.24
+  897  dnf module install perl:5.24 --allowerasing
+  898  dnf module reset perl
+  899  dnf module install perl:5.24 --allowerasing
+  900  dnf builddep dotnet-2.1.513-2.el8.src.rpm 
+  901  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/centos/8.0.1905/AppStream/Source/SPackages/dotnet-2.1.504-1.el8.src.rpm
+  902  dnf builddep efibootmgr-16-1.el8.src.rpm 
+  903  dnf module reset perl
+  904  dnf module install perl:5.26
+  905  dnf buildep efibootmgr-16-1.el8.src.rpm 
+  906  dnf builddep efibootmgr-16-1.el8.src.rpm 
+  907  mv fence-virt-1.0.0-1.el8.src.rpm_ fence-virt-1.0.0-1.el8.src.rpm
+  908  dnf builddep fence-virt-1.0.0-1.el8.src.rpm 
+  909  dnf builddep file-roller-3.28.1-3.el8.src.rpm 
+  910  dnf builddep fwupd-1.4.2-4.el8.src.rpm 
+  911  ./tail_messages.sh
+  912  rpm -qi glib2
+  913  dnf downgrade glib2
+  914  dnf downgrade glib2-2.56.4-8.el8.aarch64.rpm 
+  915  locate qmi_pdc.h
+  916  createrepo .
+  917  dnf builddep galera-25.3.26-1.module_el8.1.0+217+4d875839.src.rpm 
+  918  df -ah
+  919  mv repodata_
+  920  mv repodata  repodata_
+  921  wget -r -np -nH --cut-dirs=5 -A "*.rpm" -R "index.html*" https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/repodata/
+  922  wget wget -r -np -nH --cut-dirs=5 -A "*.rpm" -R "index.html*" https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/repodata/
+  923  wget # wget -r -np -nH --cut-dirs=5 -A "*" -R "index.html*" https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/repodata/
+  924  wget -r -np -nH --cut-dirs=5 -A "*" -R "index.html*" https://rpmfind.net/linux/almalinux/8.10/devel/aarch64/os/repodata/
+  925  dnf module list | grep asio
+  926  dnf update
+  927  dnf module list | grep asio
+  928  dnf install asio-devel
+  929  dnf reinstall asio-devel
+  930  dnf reinstall asio-devel --allowerasing
+  931  dnf reinstall asio-devel --allowerasing --nobest
+  932  dnf remove asio-devel
+  933  dnf install asio-devel
+  934  createrepo .
+  935  dnf install asio-devel
+  936  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/centos/8/isos/x86_64/CentOS-8.5.2111-x86_64-dvd1.iso
+  937  dnf module enable asio:1.10.8
+  938  dnf module list | grep asi
+  939  dnf module list | grep asio
+  940  dnf install asio-devel
+  941  dnf module info asio
+  942  dnf install dnf-utils
+  943  rpm -ivh asio-devel-1.10.8-7.module_el8.10.0+3794+c6a66d65.aarch64.rpm 
+  944  dnf builddep galera-25.3.26-1.module_el8.1.0+217+4d875839.src.rpm 
+  945  rpm -ivh asio-devel-1.10.8-7.module_el8.10.0+3955+6534edaf.aarch64.rpm 
+  946  dnf install python3-scons
+  947  wget http://ftp.iij.ad.jp/pub/linux/centos-vault/centos/8/isos/aarch64/CentOS-8.5.2111-aarch64-dvd1.iso
+  948  touch download.sh
+  949  chmod 777 download.sh 
+  950  dnf install lorax 
+  951  dnf install livemedia-creator.
+  952  dnf install livemedia-creator
+  953  dnf install mock createrepo rpm-build livecd-tools spin-kickstarts
+  954  qemu-system-aarch64
+  955  ll
+  956  ls
+  957  ls /w
+  958  ls > /111/aarch64_rpms
+  959  ls > /111/x86_64_rpms
+  960  mv x86_64_rpms rpms_x86_64
+  961  mv aarch64_rpms rpms_aarch64
+  962  cat rpms_x86_64 | sed -s '*i686*//g'
+  963  cat rpms_x86_64 | sed 's/*i686*//g'
+  964  cat rpms_x86_64 | sed 's/*i686.rpm//g'
+  965  cat rpms_x86_64 | sed 's/.*i686.rpm//g'
+  966  cat rpms_x86_64 | sed 's/.*i686.rpm//g' | sort > rpms_x86_64
+  967  ls > /111/x86_64_rpms
+  968  cat x86_64_rpms | sed 's/.*i686.rpm//g' | sort > rpms_x86_64
+  969  cat rpms_aarch64 | sed 's/-[0-9].*//g'
+  970  cat rpms_aarch64 | sed 's/-[0-9].*//g' > rpms_aarch64_names
+  971  cat rpms_x86_64 | sed 's/-[0-9].*//g' > rpms_x86_64_names
+  972  diff -uNr rpms_x86_64_names rpms_aarch64_names >diff.patch
+  973  history
+  974  history > history_.317

@@ -1,0 +1,5 @@
+/etc/X11/xorg.conf.d/10-libvnc.conf
+/usr/lib/.build-id
+/usr/lib/.build-id/00
+/usr/lib/.build-id/00/8e3a565acdcb6565d9706ba969ee556d67d42e
+/usr/lib64/xorg/modules/extensions/libvnc.so

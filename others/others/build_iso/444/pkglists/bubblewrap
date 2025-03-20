@@ -1,0 +1,10 @@
+/usr/bin/bwrap
+/usr/lib/.build-id
+/usr/lib/.build-id/1d
+/usr/lib/.build-id/1d/9cf71d7ba3abb6da34390d8f2acd9ca4cbf5e8
+/usr/share/bash-completion
+/usr/share/bash-completion/completions
+/usr/share/bash-completion/completions/bwrap
+/usr/share/licenses/bubblewrap
+/usr/share/licenses/bubblewrap/COPYING
+/usr/share/man/man1/bwrap.1.gz

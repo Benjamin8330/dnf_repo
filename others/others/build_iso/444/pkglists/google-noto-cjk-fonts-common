@@ -1,0 +1,6 @@
+/etc/fonts/conf.d/65-google-noto-cjk-fonts.conf
+/usr/share/doc/google-noto-cjk-fonts-common
+/usr/share/doc/google-noto-cjk-fonts-common/README.md
+/usr/share/fontconfig/conf.avail/65-google-noto-cjk-fonts.conf
+/usr/share/licenses/google-noto-cjk-fonts-common
+/usr/share/licenses/google-noto-cjk-fonts-common/LICENSE

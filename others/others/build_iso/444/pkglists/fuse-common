@@ -1,0 +1,4 @@
+/etc/fuse.conf
+/usr/share/man/man1/fusermount3.1.gz
+/usr/share/man/man8/mount.fuse.8.gz
+/usr/share/man/man8/mount.fuse3.8.gz

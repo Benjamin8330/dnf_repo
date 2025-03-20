@@ -1,0 +1,5 @@
+/usr/bin/aarch64-redhat-linux-gnu-pkg-config
+/usr/bin/pkg-config
+/usr/lib64/pkgconfig
+/usr/share/man/man1/pkg-config.1.gz
+/usr/share/pkgconfig

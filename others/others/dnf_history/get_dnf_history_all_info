@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for id in $(dnf history | awk 'NR>2 {print $1}'); do 
+   dnf history info $id 
+done

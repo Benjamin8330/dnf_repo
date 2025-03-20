@@ -1,0 +1,193 @@
+--- rpms_x86_64_names	2025-03-17 01:13:57.486387639 +0000
++++ rpms_aarch64_names	2025-03-17 01:13:18.066102016 +0000
+ aajohan-comfortaa-fonts
+-accel-config
+-accel-config-libs
+ acl
+ acpica-tools
+ adcli
+ adcli-doc
+ almalinux-indexhtml
+ almalinux-release
+-alsa-sof-firmware
+-alsa-sof-firmware-debug
+ arpwatch
+ at
+ atlas
+-atlas-corei2
+-atlas-corei2-devel
+ atlas-devel
+ attr
+ audispd-plugins
+@@ -452,7 +33,6 @@
+ bind-export-devel
+ bind-export-libs
+ binutils
+-biosdevname
+ blktrace
+ bluez
+ bluez-hid2hci
+@@ -540,7 +120,6 @@
+ dhcp-relay
+ dhcp-server
+ diffutils
+-dlm-lib
+ dmidecode
+ dnf
+ dnf-automatic
+@@ -854,18 +433,14 @@
+ grep
+ groff-base
+ grub2-common
++grub2-efi-aa64
++grub2-efi-aa64-cdboot
+ grub2-efi-aa64-modules
+-grub2-efi-ia32
+-grub2-efi-ia32-cdboot
+ grub2-efi-ia32-modules
+-grub2-efi-x64
+-grub2-efi-x64-cdboot
+ grub2-efi-x64-modules
+-grub2-pc
+ grub2-pc-modules
+ grub2-ppc64le-modules
+ grub2-tools
+-grub2-tools-efi
+ grub2-tools-extra
+ grub2-tools-minimal
+ grubby
+@@ -886,7 +461,6 @@
+ info
+ initscripts
+ integritysetup
+-intel-cmt-cat
+ iotop
+ ipcalc
+ iproute
+@@ -961,7 +535,6 @@
+ kmod
+ kmod-kvdo
+ kmod-libs
+-kmod-redhat-oracleasm
+ kpartx
+ kpatch
+ kpatch-dnf
+@@ -1040,7 +613,6 @@
+ libgcrypt-devel
+ libgfortran
+ libgomp
+-libgomp-offload-nvptx
+ libgpg-error
+ libgpg-error-devel
+ libgudev
+@@ -1106,14 +678,11 @@
+ libpng-devel
+ libproxy
+ libpsl
+-libpsm2
+-libpsm2-compat
+ libpwquality
+ libqb
+ libqb-devel
+ libqmi
+ libqmi-utils
+-libquadmath
+ librabbitmq
+ librdmacm
+ librdmacm-utils
+@@ -1134,7 +703,6 @@
+ libsmartcols
+ libsmartcols-devel
+ libsmbclient
+-libsmbios
+ libsolv
+ libsoup
+ libss
+@@ -1232,12 +800,9 @@
+ man-db
+ man-db-cron
+ man-pages
+-mcelog
+ mcstrans
+ mdadm
+ memstrack
+-memtest86+
+-microcode_ctl
+ microdnf
+ minicom
+ mksh
+@@ -1295,19 +860,14 @@
+ numactl-devel
+ numactl-libs
+ numad
+-numatop
+ nvme-cli
+ nvmetcli
+-opa-address-resolution
+-opa-basic-tools
+-opa-fastfabric
+-opa-fm
+-opa-libopamgt
+ opencryptoki
+ opencryptoki-icsftok
+ opencryptoki-libs
+ opencryptoki-swtok
+ opencryptoki-tpmtok
++opencsd
+ openhpi
+ openhpi-libs
+ OpenIPMI
+@@ -1462,7 +1022,6 @@
+ python3-dateutil
+ python3-dbus
+ python3-decorator
+-python3-dmidecode
+ python3-dnf
+ python3-dnf-plugin-post-transaction-actions
+ python3-dnf-plugins-core
+@@ -1590,7 +1149,6 @@
+ samba-winbind-clients
+ samba-winbind-krb5-locator
+ samba-winbind-modules
+-samba-winexe
+ sanlock-lib
+ sed
+ selinux-policy
+@@ -1610,8 +1168,7 @@
+ shadow-utils
+ shadow-utils-subid
+ shared-mime-info
+-shim-ia32
+-shim-x64
++shim-aa64
+ slang
+ smartmontools
+ smc-tools
+@@ -1650,11 +1207,6 @@
+ subscription-manager-rhsm-certificates
+ sudo
+ symlinks
+-syslinux
+-syslinux-extlinux
+-syslinux-extlinux-nonlinux
+-syslinux-nonlinux
+-syslinux-tftpboot
+ systemd
+ systemd-container
+ systemd-devel
+@@ -1666,7 +1218,6 @@
+ system-storage-manager
+ tar
+ target-restore
+-tboot
+ tcl
+ tcl-devel
+ tcl-doc
+@@ -1690,7 +1241,6 @@
+ tree
+ trousers
+ trousers-lib
+-tss2
+ tuna
+ tuned
+ tuned-profiles-atomic

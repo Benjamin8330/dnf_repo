@@ -1,0 +1,15 @@
+  552  mount -o loop AlmaLinux-8.10-aarch64-dvd.iso aarch64
+  553  cp aarch64/BaseOS /444/2/
+  558  cd /444/2/
+  561  mv repodata repodata_
+  562  mkdir /444/2/AppStream
+  563  cd /444/2/AppStream
+  583  dnf install anaconda anaconda-widgets kexec-tools-anaconda-addon anaconda-install-env-deps rpm-ostree ostree oscap-anaconda-addon --downloadonly --downloaddir=./ --installroot=/444/2/ --releasever=8.10
+  584  ls > file_list
+  586  cat file_list | grep baseos > baseos1
+  593  awk '{print $1}' baseos1 > baseos2
+  594  while IFS= read -r file; do   rm -rf Packages/"$file"*; done < baseos2
+  595  cd /444/2/AppStrem
+  598  createrepo .
+  599  rm -rf ./output
+  600  lorax -p "My Alma" -v "8.10" -r "1" -s file:///444/2/BaseOS -s file:///444/2/AppStream --nomacboot ./output
