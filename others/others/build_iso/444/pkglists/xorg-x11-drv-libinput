@@ -1,9 +1,0 @@
-/usr/lib/.build-id
-/usr/lib/.build-id/1e
-/usr/lib/.build-id/1e/72a33134784bc07c237693f17394cbd0e8c95c
-/usr/lib64/xorg/modules/input/libinput_drv.so
-/usr/share/X11/xorg.conf.d/40-libinput.conf
-/usr/share/X11/xorg.conf.d/71-libinput-overrides-wacom.conf
-/usr/share/doc/xorg-x11-drv-libinput
-/usr/share/doc/xorg-x11-drv-libinput/COPYING
-/usr/share/man/man4/libinput.4.gz
